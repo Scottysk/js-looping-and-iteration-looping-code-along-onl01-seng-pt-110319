@@ -1,6 +1,7 @@
 function wrapGifts(name, event) { 
+  let cards = []
   for (let i = 0; names.length; i++) {
-    names[i] = (`Thank you, ${names[i]}, for the wonderful ${event_name} gift!`);
+    cards.push(`Thank you, ${names[i]}, for the wonderful ${event_name} gift!`);
   }
-  return names;
+  return cards;
   }
